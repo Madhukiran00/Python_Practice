@@ -404,9 +404,25 @@
 #     list2.append(max(list1[i]))
 # print(list2)
 
-list1=[[1,2,3],[4,5,6],[7,8,9]]
-list2=[j for i in list1 for j in i if j==max(i)]
-print(list2)
+# list1=[[1,2,3],[4,5,6],[7,8,9]]
+# list2=[j for i in list1 for j in i if j==max(i)]
+# print(list2)
+a=3
+b=6
+c=9
+
+big=max(a,b,c)
+n=big
+small=min(a,b,c)
+
+
+while True:
+    if big%small==0  and :
+        print("LCM is",big)
+        break
+    else:
+        big=big+n
+
 
 
 
