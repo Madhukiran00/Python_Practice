@@ -417,11 +417,12 @@ small=min(a,b,c)
 
 
 while True:
-    if big%small==0  and :
+    if big%small==0  and medium%small==0: 
         print("LCM is",big)
         break
     else:
         big=big+n
+        
 
 
 
