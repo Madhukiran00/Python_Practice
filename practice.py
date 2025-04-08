@@ -340,50 +340,62 @@
 
 #Compile time Error (Syntax Error)
 
-print("Hello World" # Missing parentheses in function call
+# print("Hello World" # Missing parentheses in function call
 
 
 
-#Run time Error
-# This error occurs when you try to divide a number by zero.
-x = 10
-y = 0
-result = x / y  # Division by zero
-print(result)
-
-
-
-
-
-#Logical Error
-# This error occurs when the logic of the code is incorrect, leading to unexpected results.
-# For example, if you meant to add two numbers but accidentally used subtraction:
-num1 = 5
-num2 = 10
-sum_result = num1 - num2
-print(f"The sum of {num1} and {num2} is: {sum_result}")
-
-
-
-string="Python"
-print(string[ : : ]) #output=> Python
-
-print(string[0:1]) #output=> P
-
-print(string[0:2]) #output=> Py
-
-print(string[0:4:2]) #output=> Pt
-
-print(string[-1:])  #output=> n
-
-print(string[0 : : 2]) #output=> Pto
+# #Run time Error
+# # This error occurs when you try to divide a number by zero.
+# x = 10
+# y = 0
+# result = x / y  # Division by zero
+# print(result)
 
 
 
 
 
+# #Logical Error
+# # This error occurs when the logic of the code is incorrect, leading to unexpected results.
+# # For example, if you meant to add two numbers but accidentally used subtraction:
+# # num1 = 5
+# # num2 = 10
+# sum_result = num1 - num2
+# print(f"The sum of {num1} and {num2} is: {sum_result}")
 
 
+
+# string="Python"
+# print(string[ : : ]) #output=> Python
+
+# print(string[0:1]) #output=> P
+
+# print(string[0:2]) #output=> Py
+
+# print(string[0:4:2]) #output=> Pt
+
+# print(string[-1:])  #output=> n
+
+# print(string[0 : : 2]) #output=> Pto
+
+
+
+# original = [[1, 2], [3, 4]]
+
+# #Shallow Copy
+
+
+try:
+    num = int(input("Enter a number: "))
+    result = 10 / num
+except ValueError:
+    print("Please enter a valid number.")
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+else:
+    print("Result:", result)
+finally:
+    print("Execution complete.")
 
 
 
