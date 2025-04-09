@@ -427,12 +427,28 @@
 #Python Comprehension
 
 #List Comprehension
-squares = [x**2 for x in range(5)]  # [0, 1, 4, 9, 16]
-print(squares)
+# squares = [x**2 for x in range(5)]  # [0, 1, 4, 9, 16]
+# print(squares)
 
-#Dictionary Comprehension
-squares_dict = {x: x**2 for x in range(5)}  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
-print(squares_dict)
+# #Dictionary Comprehension
+# squares_dict = {x: x**2 for x in range(5)}  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+# print(squares_dict)
+
+
+# Three numbers
+
+
+num1=int(input("Enter the First NO:"))
+num2=int(input("ENter the secound No:"))
+num3=int(input("Enter the third NO:"))
+max_num = max(num1,num2,num3)
+while True:
+    if (max_num%num1==0) and (max_num%num2==0) and (max_num%num3==0):
+        lcm = max_num
+        break
+    max_num += 1
+
+print("LCM of", num1,num2,num3, "is:", lcm)
 
 
 
