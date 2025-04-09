@@ -407,26 +407,32 @@
 # list1=[[1,2,3],[4,5,6],[7,8,9]]
 # list2=[j for i in list1 for j in i if j==max(i)]
 # print(list2)
-a=3
-b=6
-c=9
+# a=3
+# b=6
+# c=9
 
-big=max(a,b,c)
-n=big
-small=min(a,b,c)
+# big=max(a,b,c)
+# n=big
+# small=min(a,b,c)
 
 
-while True:
-    if big%small==0  and medium%small==0: 
-        print("LCM is",big)
-        break
-    else:
-        big=big+n
+# while True:
+#     if big%small==0  and medium%small==0: 
+#         print("LCM is",big)
+#         break
+#     else:
+#         big=big+n
         
 
+#Python Comprehension
 
+#List Comprehension
+squares = [x**2 for x in range(5)]  # [0, 1, 4, 9, 16]
+print(squares)
 
-
+#Dictionary Comprehension
+squares_dict = {x: x**2 for x in range(5)}  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+print(squares_dict)
 
 
 
