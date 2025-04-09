@@ -438,29 +438,54 @@
 # Three numbers
 
 
-num1=int(input("Enter the First NO:"))
-num2=int(input("ENter the secound No:"))
-num3=int(input("Enter the third NO:"))
-max_num = max(num1,num2,num3)
-while True:
-    if (max_num%num1==0) and (max_num%num2==0) and (max_num%num3==0):
-        lcm = max_num
+# num1=int(input("Enter the First NO:"))
+# num2=int(input("ENter the secound No:"))
+# num3=int(input("Enter the third NO:"))
+# max_num = max(num1,num2,num3)
+# while True:
+#     if (max_num%num1==0) and (max_num%num2==0) and (max_num%num3==0):
+#         lcm = max_num
+#         break
+#     max_num += 1
+
+# print("LCM of", num1,num2,num3, "is:", lcm)
+
+
+
+
+
+
+# count=0
+# num=100
+# if num==1:
+#     count=0
+# else:
+#     while True:
+#         quo=num//2
+#         rem=num-quo
+#         num=rem
+#         count+=1
+#         if num==1:
+#             break
+
+    
+# print(count)
+
+
+
+
+str="0010"
+temp=str[0]
+count1=0
+count2=0
+for i in range(len(str)):
+    if str[i]==temp:
+        count1+=1
+    else:
+        count2+=1
+    if count1==count2:
+        print(count1+count2)
         break
-    max_num += 1
-
-print("LCM of", num1,num2,num3, "is:", lcm)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
