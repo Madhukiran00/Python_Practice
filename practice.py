@@ -474,18 +474,20 @@
 
 
 
-str="0010"
-temp=str[0]
-count1=0
-count2=0
-for i in range(len(str)):
-    if str[i]==temp:
-        count1+=1
-    else:
-        count2+=1
-    if count1==count2:
-        print(count1+count2)
-        break
-
-
+# str="0010"
+# temp=str[0]
+# count1=0
+# count2=0
+# for i in range(len(str)):
+#     if str[i]==temp:
+#         count1+=1
+#     else:
+#         count2+=1
+#     if count1==count2:
+#         print(count1+count2)
+#         break
+list1=[1,3,4,5,6,6]
+# list1.extend(9)
+print(list1.count(9))
+print(list1)
 
