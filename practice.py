@@ -486,8 +486,29 @@
 #     if count1==count2:
 #         print(count1+count2)
 #         break
-list1=[1,3,4,5,6,6]
-# list1.extend(9)
-print(list1.count(9))
-print(list1)
+# list1=[1,3,4,5,6,6]
+# # list1.extend(9)
+# print(list1.count(9))
+# print(list1)
+
+# dict={"a":2,"b":6,"c":8}
+# dict["a"]=10
+# print(dict)
+
+# list=[2,5,7,8]
+# print(max(list))
+# for i in range(len(list)):
+#     sum=sum+list[i]
+# # print(sum)
+# list=[2,5,5,7,8,8]
+# unq=[]
+# for i in range(len(list)):
+#     if list[i] not in unq:
+#         unq.append(list[i])
+# print(unq)
+
+# str="apple banana apple"
+# dict={}
+# list=str.split(" ")
+# dict("apple"(list.count("apple")))
 
