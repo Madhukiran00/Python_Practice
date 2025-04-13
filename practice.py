@@ -512,3 +512,37 @@
 # list=str.split(" ")
 # dict("apple"(list.count("apple")))
 
+
+
+# n=9
+# c=True
+# for i in range(n,0,-1):
+#     if i==5 and c:
+#         print(i,end=" ")
+#         c=False
+#         pass
+#     else:
+#         print(i,n-(i-1),end=" ")
+
+
+# n=150
+# pri_count=0
+# while True:
+#     count=0
+#     for i in range(2,n,1):
+#         if n%i==0:
+#             count+=1
+#     if count==0:
+#         print(n,end=" ")
+#         pri_count+=1
+#     n=n+1
+#     if pri_count==30:
+#         break
+        
+
+
+
+
+
+
+
