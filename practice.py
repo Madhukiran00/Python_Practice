@@ -539,10 +539,8 @@
 #     if pri_count==30:
 #         break
 ###############
-        
 
-
-
+'''
 x = "global"  # Global Scope
 
 def outer():
@@ -555,6 +553,61 @@ def outer():
 
 outer()
 print("Global:", x)
+'''
+'''import random
+
+print(random.randint(1,10))'''
+
+# import random
+# print(random.randint(1,20))
+
+# kilometers=5
+
+# miles=kilometers*0.621
+# print(miles)
+
+
+'''celsius=30
+fahrenheat=(celsius*9/5)+32
+print(fahrenheat)
+
+celsius=(fahrenheat-32)*5/9
+print(celsius)'''
+''''import calendar 
+print(calendar.month(2003,6))'''
+
+# import calendar
+
+# print(calendar.month(2003,6))
+
+# import math
+
+# a=float(input("Enter coefficient a"))
+# b=float(input("Enter coefficient b"))
+# c=float(input("Enter coefficient c"))
+
+# disc=b**2-4*a*c
+
+# root1=(-b+math.sqrt(disc))/(2*a)
+# root1=(-b-math.sqrt(disc))/(2*a)
+
+
+
+start=10
+end=1000
+sum=0
+for i in range(10,1000+1,1):
+    
+    dig_len=len(str(i))
+    
+    while i!=0:
+        
+
+
+
+
+
+
 
 
 
