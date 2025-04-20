@@ -594,10 +594,6 @@ print(calendar.month(2003,6))'''
 
 
 start=10
-end=1000
-sum=0
-for i in range(10,1000+1,1):
-    
 
 
 
