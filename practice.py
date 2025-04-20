@@ -593,13 +593,6 @@ print(calendar.month(2003,6))'''
 
 
 
-start=10
-
-
-
-
-
-
 
 
 
