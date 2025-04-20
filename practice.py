@@ -598,10 +598,6 @@ end=1000
 sum=0
 for i in range(10,1000+1,1):
     
-    dig_len=len(str(i))
-    
-    while i!=0:
-        
 
 
 
