@@ -589,9 +589,7 @@ print(calendar.month(2003,6))'''
 # disc=b**2-4*a*c
 
 # root1=(-b+math.sqrt(disc))/(2*a)
-# root1=(-b-math.sqrt(disc))/(2*a)
-
-
+# roo
 
 
 
