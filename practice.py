@@ -586,9 +586,7 @@ print(calendar.month(2003,6))'''
 # b=float(input("Enter coefficient b"))
 # c=float(input("Enter coefficient c"))
 
-# disc=b**2-4*a*c
-
-# root1=(
+# disc=b**2-4
 
 
 
