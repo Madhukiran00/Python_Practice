@@ -614,3 +614,31 @@ print(calendar.month(2003,6))'''
 # # Output => [('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5), ('f', 6)]
 
 
+
+
+
+
+
+
+class Car:
+    # Class variables
+    def __init__(self, brand, model, year): #Constructor
+        # Instance variables
+        self.brand = brand
+        self.model = model
+        self.year = year
+
+    def display_info(self):                 #Method
+        print(f"Car Brand: {self.brand}",end=",")
+        print(f"Model: {self.model}",end=",")
+        print(f"Year: {self.year}")
+
+
+car1 = Car("Toyota", "Camry", 2022)  # Creating object /instances 
+car2 = Car("Hyundai", "Verna", 2023)
+
+car1.display_info() #Output: Car Brand: Toyota,Model: Camry,Year: 2022
+print("\n")
+car2.display_info() # Output: Car Brand: Hyundai,Model: Verna,Year: 2023
+
+
