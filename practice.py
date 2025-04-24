@@ -593,6 +593,29 @@ print(calendar.month(2003,6))'''
 
 
 
+#Whiout Zip 
+
+list1=["a","b","c","d","e","f"]
+list2=[1,2,3,4,5,6]
+
+new_list=[]
+for i in range(len(list1)):
+    new_list.append((list1[i],list2[i]))
+
+print(new_list)
+
+
+#Output => [('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5), ('f', 6)]
+#----------------------------------------------------------------------------
+#With Zip
+
+list1=["a","b","c","d","e","f"]
+list2=[1,2,3,4,5,6]
+
+res=list(zip(list1,list2))
+print(res)
+
+# # Output => [('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5), ('f', 6)]
 
 
 
