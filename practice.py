@@ -614,34 +614,3 @@ print(calendar.month(2003,6))'''
 # # Output => [('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5), ('f', 6)]
 
 
-
-# Map
-
-l=[1,2,3,4,5,6,7,8,9]
-
-res=map(lambda ele : ele%2==0,l)
-
-print(list(res))
-
-# Output => [False, True, False, True, False, True, False, True, False]
-
-
-# Filter 
-
-l=[1,2,3,4,5,6,7,8,9]
-
-res=filter(lambda ele :ele%2==0,l)
-print(list(res))
-
-# Output :[2, 4, 6, 8]
-
-
-# Reduce 
-
-from functools import reduce
-
-nums = [1, 2, 3, 4, 5]
-total = reduce(lambda x, y: x + y, nums)
-print(total) 
-
-# Output: 15
