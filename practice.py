@@ -646,18 +646,37 @@ print(calendar.month(2003,6))'''
 
 #Single Inheritance
 
-# Parent class
-class Animal:
-    def sound(self):
-        print("Animals make sounds")
+# # Parent class
+# class Animal:
+#     def sound(self):
+#         print("Animals make sounds")
 
-# Child class
-class Dog(Animal):
-    def bark(self):
-        print("Dog barks")
+# # Child class
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog barks")
 
-# Create object
-d = Dog()
-d.sound()  # Inherited from Animal 
-d.bark()   # Specific to Dog
+# # Create object
+# d = Dog()
+# d.sound()  # Inherited from Animal 
+# d.bark()   # Specific to Dog
+
+
+for i in range(10):
+    a,b=0,1
+    print(a)
+    a=a+b
+    
+    
+
+
+
+
+
+
+
+
+
+
+
 
