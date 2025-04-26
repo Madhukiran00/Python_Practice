@@ -620,25 +620,44 @@ print(calendar.month(2003,6))'''
 
 
 
-class Car:
-    # Class variables
-    def __init__(self, brand, model, year): #Constructor
-        # Instance variables
-        self.brand = brand
-        self.model = model
-        self.year = year
+# class Car:
+#     # Class variables
+#     def __init__(self, brand, model, year): #Constructor
+#         # Instance variables
+#         self.brand = brand
+#         self.model = model
+#         self.year = year
 
-    def display_info(self):                 #Method
-        print(f"Car Brand: {self.brand}",end=",")
-        print(f"Model: {self.model}",end=",")
-        print(f"Year: {self.year}")
+#     def display_info(self):                 #Method
+#         print(f"Car Brand: {self.brand}",end=",")
+#         print(f"Model: {self.model}",end=",")
+#         print(f"Year: {self.year}")
 
 
-car1 = Car("Toyota", "Camry", 2022)  # Creating object /instances 
-car2 = Car("Hyundai", "Verna", 2023)
+# car1 = Car("Toyota", "Camry", 2022)  # Creating object /instances 
+# car2 = Car("Hyundai", "Verna", 2023)
 
-car1.display_info() #Output: Car Brand: Toyota,Model: Camry,Year: 2022
-print("\n")
-car2.display_info() # Output: Car Brand: Hyundai,Model: Verna,Year: 2023
+# car1.display_info() #Output: Car Brand: Toyota,Model: Camry,Year: 2022
+# print("\n")
+# car2.display_info() # Output: Car Brand: Hyundai,Model: Verna,Year: 2023
 
+
+
+
+#Single Inheritance
+
+# Parent class
+class Animal:
+    def sound(self):
+        print("Animals make sounds")
+
+# Child class
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+
+# Create object
+d = Dog()
+d.sound()  # Inherited from Animal 
+d.bark()   # Specific to Dog
 
