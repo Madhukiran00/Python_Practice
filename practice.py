@@ -784,8 +784,8 @@ print(calendar.month(2003,6))'''
 # print(max)
     
 
-import keyword  as ky
-print(ky.kwlist)
+# import keyword  as ky
+# print(ky.kwlist)
 
 
            
