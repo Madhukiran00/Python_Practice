@@ -784,8 +784,8 @@ for i in range(len(l)):
 print(max)
     
 
-# import keyword  as ky
-# print(ky.kwlist)
+import keyword  as ky
+print(ky.kwlist)
 
 
            
