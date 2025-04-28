@@ -769,11 +769,11 @@ print(calendar.month(2003,6))'''
 # print(l)
 
 
-# small=l[0]
-# for i in range(len(l)):
-#     if small>l[i]:
-#         small=l[i]
-# print(small)
+small=l[0]
+for i in range(len(l)):
+    if small>l[i]:
+        small=l[i]
+print(small)
     
     
     
