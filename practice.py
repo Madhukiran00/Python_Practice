@@ -777,11 +777,11 @@ print(calendar.month(2003,6))'''
     
     
     
-# max=l[0]
-# for i in range(len(l)):
-#     if max<l[i]:
-#         max=l[i]
-# print(max)
+max=l[0]
+for i in range(len(l)):
+    if max<l[i]:
+        max=l[i]
+print(max)
     
 
 # import keyword  as ky
