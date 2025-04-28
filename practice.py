@@ -662,17 +662,135 @@ print(calendar.month(2003,6))'''
 # d.bark()   # Specific to Dog
 
 
-for i in range(10):
-    a,b=0,1
-    print(a)
-    a=a+b
+# for i in range(10):
+#     a,b=0,1
+#     print(a)
+#     a=b
+#     b=a+b
     
     
+    
+# l=[1,2,3,4,5,6,7,8,9,10,"python",True]
+
+# for i in range(len(l)):
+#     if isinstance(l[i],bool):
+#         pass
+#     elif isinstance(l[i], int):
+#         l[i] *= 2
+   
+# print(l)
+   
+
+# l=[1,10,20,30,50,60]
+# sum=0
+# for i in range(len(l)):
+#     sum=l[i]
+#     sum+=sum
+# print(sum)
+     
+
+# l="Madhu"
+# k="sdf"
+# if  str(type(l))=="<class 'str'>":
+#     print("This is True") 
+    
+
+
+
+    
+
+
+# for i in range(10,20+1,2):
+#     print(i)
+
+# for i in range(10,20+1,2):
+#     print(i)
+
+# n=10
+# while n!=20+1:
+#     if n%2==0:
+#         print(n)
+#     n=n+1
+
+# n=10
+# while n!=20+1:
+#     if n%2!=0:
+#         print(n)
+#     n=n+1
+
+# n=10
+# while n!=20+1:
+#     if n & 1 ==0:
+#         print(n)
+#     n=n+1
+
+# n=10
+# while n!=20:
+#     if n & 1 ==1:
+#         print(n)
+#     n=n+1
+
+
+# n=10
+# while n!=20:
+#     rem=divmod(n,2)
+#     if rem==1:
+#         print(n)
+#     n=n+1
 
 
 
 
 
+
+
+# string="Madhukiran"
+
+# new_str=""
+# for i in range(-1,-(len(string)+1),-1):
+#     new_str+=string[i]
+    
+# print(new_str)
+
+# new_str=""
+
+# for i in range(len(string)):
+#     if string[i] not in new_str:
+#         new_str+=string[i]
+        
+# print(new_str)
+
+# l=[2,6,9,3,5,7,10,15,1]
+# for i in range(len(l)):
+#     for j in range(len(l)):
+#         if l[i]>l[j]:
+#             l[i]=l[j]
+            
+# print(l)
+
+
+# small=l[0]
+# for i in range(len(l)):
+#     if small>l[i]:
+#         small=l[i]
+# print(small)
+    
+    
+    
+# max=l[0]
+# for i in range(len(l)):
+#     if max<l[i]:
+#         max=l[i]
+# print(max)
+    
+
+# import keyword  as ky
+# print(ky.kwlist)
+
+
+           
+  
+        
 
 
 
