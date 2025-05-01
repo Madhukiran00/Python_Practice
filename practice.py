@@ -871,10 +871,27 @@ print(calendar.month(2003,6))'''
         #string+=str(row)+" "
     #print(string)
 
-row=5
-for row in range(1,row+1):
-    string=""
-    for col in range(row):
-        string+=str(col+1)+" "
-    print(string)
+# row=5
+# for row in range(1,row+1):
+#     string=""
+#     for col in range(row):
+#         string+=str(col+1)+" "
+#     print(string)
 
+# num=7
+# if num & 1==0:
+#     print("even")
+# else:
+#     print("odd")    
+
+# n
+# d=7569791711
+# length=0
+# temp=d
+# if d == 0:
+#     length = 1
+# else:   
+#     while temp > 0:
+#      temp=temp // 10
+#      length += 1
+# print("length:",length)   
