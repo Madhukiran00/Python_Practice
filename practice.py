@@ -767,34 +767,114 @@ print(calendar.month(2003,6))'''
 #             l[i]=l[j]
             
 # print(l)
+# l=[2,6,9,3,5,7,10,15,1]
 
-
-small=l[0]
-for i in range(len(l)):
-    if small>l[i]:
-        small=l[i]
-print(small)
+# small=l[0]
+# for i in range(len(l)):
+#     if small>l[i]:
+#         small=l[i]
+# print(small)
     
     
     
-max=l[0]
-for i in range(len(l)):
-    if max<l[i]:
-        max=l[i]
-print(max)
+# max=l[0]
+# for i in range(len(l)):
+#     if max<l[i]:
+#         max=l[i]
+# print(max)
     
 
-import keyword  as ky
-print(ky.kwlist)
+# import keyword  as ky
+# print(ky.kwlist)
 
-
-           
-  
+# for i in range(-10,1,1):
+#     if i%2==0:
+#         print(i-1)
         
 
 
+# def len_fun(l):
+#     count=0
+#     for i in l:
+#         count+=1
+#     return count
+
+# l=[1,2,3,4,5,6,7]
+# obj=len_fun(l)
+# print(obj)
+
+# def sum_list(l):
+#     sum=0
+#     for i in l:
+#         sum+=i
+#     return sum
+
+# l=[1,2,3,4,5,6,7]
+# obj=sum_list(l)
+# print(obj)
+        
+        
+# st="MadhuKIRAN"
+# new_str=""
+
+# for i in range(len(st)):
+#     if ord(st[i])>=65 and ord(st[i])<=90 :
+#         new_str+=chr(ord(st[i])+32)
+#     elif ord(st[i])>=97 and ord(st[i])<=122:
+#         new_str+=chr(ord(st[i])-32)
+# print(new_str)
+
+# st='PythonDeveloper'
+
+# for i in range(-1,-len(st),-1):
+#     print(st[i])
+
+# s=""
+# for i in st:
+#     s=i+s
+# print(s)
+    
+# n=153
+# count=0
+# temp=n
+# temp2=n
+
+# while n!=0:
+    # rem=n%10
+    # count+=1
+    # n=n//10
+
+# sum=0
+# while temp!=0:
+    # re=temp%10
+    # sum+=re**count
+    # temp=temp//10
+    
+# if sum==temp2:
+    # print("True")
+# else:
+    # print("False")
 
 
+# n=5
+# count=0
+# while count<5:
+    # print("* "*5)
+    # count=count+1
+    
+    
+#task-02
+#row=5
+#for row in range(1,row+1):
+    #string=""
+    #for col in range(1,row+1):
+        #string+=str(row)+" "
+    #print(string)
 
-
+row=5
+for row in range(1,row+1):
+    string=""
+    for col in range(row):
+        string+=str(col+1)+" "
+    print(string)
 
