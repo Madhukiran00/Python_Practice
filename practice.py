@@ -901,8 +901,7 @@ print(calendar.month(2003,6))'''
 # for i in range(len(string)-1,-1,-1):
 #      print(string[i],end=" ")
 
-num=12345
-
+num=123
      
      
      
