@@ -894,4 +894,15 @@ print(calendar.month(2003,6))'''
 #     while temp > 0:
 #      temp=temp // 10
 #      length += 1
-# print("length:",length)   
+# print("length:",length)  
+
+# num=756979111
+# string=str(num) 
+# for i in range(len(string)-1,-1,-1):
+#      print(string[i],end=" ")
+
+num=12345
+
+     
+     
+     
