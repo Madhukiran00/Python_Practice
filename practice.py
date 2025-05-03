@@ -790,10 +790,7 @@ print(calendar.month(2003,6))'''
 # for i in range(-10,1,1):
 #     if i%2==0:
 #         print(i-1)
-        
-
-
-# def len_fun(l):
+        # def len_fun(l):
 #     count=0
 #     for i in l:
 #         count+=1
