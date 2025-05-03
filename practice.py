@@ -802,10 +802,6 @@ print(calendar.month(2003,6))'''
 # l=[1,2,3,4,5,6,7]
 # obj=len_fun(l)
 # print(obj)
-
-
-
-
 # def sum_list(l):
 #     sum=0
 #     for i in l:
