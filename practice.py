@@ -824,6 +824,8 @@ print(calendar.month(2003,6))'''
 #         new_str+=chr(ord(st[i])-32)
 # print(new_str)
 
+
+
 # st='PythonDeveloper'
 
 # for i in range(-1,-len(st),-1):
