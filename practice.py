@@ -815,7 +815,6 @@ print(calendar.month(2003,6))'''
         
         
 # st="MadhuKIRAN"
-# new_str=""
 
 # for i in range(len(st)):
 #     if ord(st[i])>=65 and ord(st[i])<=90 :
