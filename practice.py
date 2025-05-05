@@ -902,25 +902,25 @@ print(calendar.month(2003,6))'''
 # for i in range(len(string)-1,-1,-1):
 #      print(string[i],end=" ")
 
-row=5
-for i in range (1,row+1):
-    res1=""
-    for j in range(1,row+1):
-        if i+j==row+1 or i==row or  j==row:
-            res1+="*"+" "
-        else:
-            res1+=" "+" "
-    print(res1)
+# row=5
+# for i in range (1,row+1):
+#     res1=""
+#     for j in range(1,row+1):
+#         if i+j==row+1 or i==row or  j==row:
+#             res1+="*"+" "
+#         else:
+#             res1+=" "+" "
+#     print(res1)
             
-row=5
-for i in range(1,row+1):
-    res2=""
-    for j in range(1,row+1):
-        if i+j<=row+1:
-            res2+="*"+" "
-        else:
-            res2+=" "+" "
-    print(res2)
+# row=5 
+# for i in range(1,row+1):
+#     res2=""
+#     for j in range(1,row+1):
+#         if i+j<=row+1:
+#             res2+="*"+" "
+#         else:
+#             res2+=" "+" "
+#     print(res2)
             
 row=5
 for i in range (1,row+1):
