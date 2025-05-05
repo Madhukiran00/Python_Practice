@@ -934,7 +934,27 @@ print(calendar.month(2003,6))'''
 #         else:
 #             res1+=" "+" "
 #     print(res1)              
-        
-     
-     
-     
+# 0 1 1 2 3 5 8 13 21 34 55
+# a b
+#   a=b  b=
+
+# n=5
+# a,b=0,1
+# for i in range (1,n+1):
+#     b=a+b
+#     print(a)
+#     a=b
+    
+
+
+
+
+
+
+
+
+
+
+
+
+       
