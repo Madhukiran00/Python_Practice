@@ -20,8 +20,6 @@
 # file.write("Somethonding   ")# the previous data what exits in the file will be reased to 
 # #to overcome this problem we use append instead of write mode if u want the previoe data
 # file.close()
-
-
 # file=open("example.txt",mode="r+")
 # print(file.read())
 # file.write("My name is madhu")
