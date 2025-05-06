@@ -9,7 +9,6 @@
 # outer()
 # import functions
 # print(functions.sum(3,5))
-
 # s=open("example.txt",mode="r")
 # print(s.read())
 # s.close()
@@ -17,7 +16,6 @@
 # print(file.read())
 # file.write("my name is madhu")
 # file.close()
-
 # file=open("example.txt",mode="a")
 # file.write("Somethonding   ")# the previous data what exits in the file will be reased to 
 # #to overcome this problem we use append instead of write mode if u want the previoe data
