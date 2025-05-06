@@ -40,8 +40,6 @@
 #     print("No exception This is else block")
 # finally:
 #     print("This is finally block")
-
-
 # a=45
 # try:
 #     print(b)
