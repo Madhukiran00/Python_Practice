@@ -7,7 +7,6 @@
 #         print("inner function")
 #     inner()
 # outer()
-
 # import functions
 # print(functions.sum(3,5))
 
