@@ -26,8 +26,6 @@
 # print(file.read())
 # file.write("My name is madhu")
 # file.close()
-
-
 # file=open("example.txt",mode="w+")
 # file.write("my_name_is_madhu")
 # file.seek(2)
