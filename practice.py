@@ -947,11 +947,46 @@ print(calendar.month(2003,6))'''
 
 
 # use_input=int(input())
-
-print(bin(5))
+# n=13
+# str=""
+# while n!=0:
+#     quo=n//2
+#     rem=n%2
     
+#     n=rem
+#     print(rem)
+# def decimal_to_binary(n):
+#     return bin(n)
+# res=decimal_to_binary(13)[2:]
+# c=0
+# for i in res:
+#     if i==1:
+#         c=1
+#     else:
+#         print("False")
+#         break
+# if c==1:
+#     print("True")
+# n=123456
+# rev=0
+# while n!=0:
+#     rem=n%10
+#     rev=rev*10+rem
+#     n=n//10
+    
+# print(rev)
 
 
+num=5
+for row in range(1,num+1):
+    for col in range(1,num+1):
+        if row+col==num+1:
+            print("*",end=" ")
+        else:
+            print(" ")
+    print("\n")
+    
+    
 
 
 
