@@ -1,19 +1,14 @@
 # def prac(**a):
-    
 #     print("Hello",a)
 # prac(a=1,b=2,c=3)
-
-
 # def outer():
 #     print("outer function")
 #     def inner():
 #         print("inner function")
 #     inner()
 # outer()
-
 # import functions
 # print(functions.sum(3,5))
-
 # s=open("example.txt",mode="r")
 # print(s.read())
 # s.close()
@@ -21,19 +16,14 @@
 # print(file.read())
 # file.write("my name is madhu")
 # file.close()
-
 # file=open("example.txt",mode="a")
 # file.write("Somethonding   ")# the previous data what exits in the file will be reased to 
 # #to overcome this problem we use append instead of write mode if u want the previoe data
 # file.close()
-
-
 # file=open("example.txt",mode="r+")
 # print(file.read())
 # file.write("My name is madhu")
 # file.close()
-
-
 # file=open("example.txt",mode="w+")
 # file.write("my_name_is_madhu")
 # file.seek(2)
@@ -50,8 +40,6 @@
 #     print("No exception This is else block")
 # finally:
 #     print("This is finally block")
-
-
 # a=45
 # try:
 #     print(b)
@@ -947,46 +935,10 @@ print(calendar.month(2003,6))'''
 
 
 # use_input=int(input())
-# n=13
-# str=""
-# while n!=0:
-#     quo=n//2
-#     rem=n%2
-    
-#     n=rem
-#     print(rem)
-# def decimal_to_binary(n):
-#     return bin(n)
-# res=decimal_to_binary(13)[2:]
-# c=0
-# for i in res:
-#     if i==1:
-#         c=1
-#     else:
-#         print("False")
-#         break
-# if c==1:
-#     print("True")
-# n=123456
-# rev=0
-# while n!=0:
-#     rem=n%10
-#     rev=rev*10+rem
-#     n=n//10
-    
-# print(rev)
 
+print(bin(5))
+    
 
-num=5
-for row in range(1,num+1):
-    for col in range(1,num+1):
-        if row+col==num+1:
-            print("*",end=" ")
-        else:
-            print(" ")
-    print("\n")
-    
-    
 
 
 
