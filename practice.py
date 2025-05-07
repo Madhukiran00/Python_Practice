@@ -987,19 +987,68 @@ print(calendar.month(2003,6))'''
         
 
 
+# n = 7 
+# for row in range(n):
+#     for col in range(n):
+#         if col == 0 or col == n - 1 or (row == col and col <= n // 2) or (row + col == n - 1 and col >= n // 2):
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+# print() 
+
+# for row in range(n):
+#     for col in range(n):
+#         if (col == 0 or col == n - 1) and row != 0 or (row == 0 and col > 0 and col < n - 1) or row == n // 2:
+#             print("$", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+# print()
+
+# for row in range(n):
+#     for col in range(n):
+#         if col == 0 or (col == n - 1 and row != 0 and row != n - 1) or ((row == 0 or row == n - 1) and col < n - 1):
+#             print("#", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+# print()
+
+# for row in range(n):
+#     for col in range(n):
+#         if col == 0 or col == n - 1 or row == n // 2:
+#             print("@", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+# print()
+
+# for row in range(n):
+#     for col in range(n):
+#         if (col == 0 or col == n - 1) and row != n - 1 or (row == n - 1 and col > 0 and col < n - 1):
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+
+
+
+
+
 n = 7 
 for row in range(n):
     for col in range(n):
-        if col == 0 or col == n - 1 or (row == col and col <= n // 2) or (row + col == n - 1 and col >= n // 2):
+        if col == 0 or (row == 0 and col < n - 1) or (row == n // 2 and col < n - 1) or (col == n - 1 and row > 0 and row < n // 2):
             print("*", end="")
         else:
             print(" ", end="")
     print()
-print() 
+print()
 
 for row in range(n):
     for col in range(n):
-        if (col == 0 or col == n - 1) and row != 0 or (row == 0 and col > 0 and col < n - 1) or row == n // 2:
+        if ((col == 0 or col == n - 1) and row != n - 1) or (row == n - 1 and col > 0 and col < n - 1):
             print("$", end="")
         else:
             print(" ", end="")
@@ -1008,7 +1057,7 @@ print()
 
 for row in range(n):
     for col in range(n):
-        if col == 0 or (col == n - 1 and row != 0 and row != n - 1) or ((row == 0 or row == n - 1) and col < n - 1):
+        if col == 0 or col == n - 1 or row == col:
             print("#", end="")
         else:
             print(" ", end="")
@@ -1017,7 +1066,7 @@ print()
 
 for row in range(n):
     for col in range(n):
-        if col == 0 or col == n - 1 or row == n // 2:
+        if row == 0 or row == n - 1 or col == n // 2:
             print("@", end="")
         else:
             print(" ", end="")
@@ -1026,9 +1075,31 @@ print()
 
 for row in range(n):
     for col in range(n):
-        if (col == 0 or col == n - 1) and row != n - 1 or (row == n - 1 and col > 0 and col < n - 1):
-            print("*", end="")
+        if row == 0 or col == n // 2:
+            print("+", end="")
         else:
             print(" ", end="")
     print()
+print()
+
+for row in range(n):
+    for col in range(n):
+        if col == 0 or col == n - 1 or row == n // 2:
+            print("&", end="")
+        else:
+            print(" ", end="")
+    print()
+print()
+
+for row in range(n):
+    for col in range(n):
+        if (col == 0 or col == n - 1) and row != 0 or (row == 0 and col > 0 and col < n - 1) or row == n // 2:
+            print("=", end="")
+        else:
+            print(" ", end="")
+    print()
+print()
+
+
+
 
