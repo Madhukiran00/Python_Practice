@@ -935,25 +935,6 @@ print(calendar.month(2003,6))'''
 
 
 # use_input=int(input())
-
-print(bin(5))
-    
-
-
-
-
-
-
-
-
-
-
-
-       
-for i in range():
-    
-    
-    
     
 # *         *
 # * *     * *
