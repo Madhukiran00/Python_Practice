@@ -974,3 +974,61 @@ print(calendar.month(2003,6))'''
         
 
 
+
+
+
+# for i in range(1,7):
+#     for j in range(1,8):
+#         if j==1 or j==7:
+#             print("*",end=" ")
+#         else:
+#             print(" "+" ")
+#     print("\n")
+        
+
+
+n = 7 
+for row in range(n):
+    for col in range(n):
+        if col == 0 or col == n - 1 or (row == col and col <= n // 2) or (row + col == n - 1 and col >= n // 2):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+print() 
+
+for row in range(n):
+    for col in range(n):
+        if (col == 0 or col == n - 1) and row != 0 or (row == 0 and col > 0 and col < n - 1) or row == n // 2:
+            print("$", end="")
+        else:
+            print(" ", end="")
+    print()
+print()
+
+for row in range(n):
+    for col in range(n):
+        if col == 0 or (col == n - 1 and row != 0 and row != n - 1) or ((row == 0 or row == n - 1) and col < n - 1):
+            print("#", end="")
+        else:
+            print(" ", end="")
+    print()
+print()
+
+for row in range(n):
+    for col in range(n):
+        if col == 0 or col == n - 1 or row == n // 2:
+            print("@", end="")
+        else:
+            print(" ", end="")
+    print()
+print()
+
+for row in range(n):
+    for col in range(n):
+        if (col == 0 or col == n - 1) and row != n - 1 or (row == n - 1 and col > 0 and col < n - 1):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
