@@ -1076,6 +1076,10 @@ print(calendar.month(2003,6))'''
 #     print()
 # print()
 
+
+
+
+
 # for row in range(n):
 #     for col in range(n):
 #         if col == 0 or col == n - 1 or row == n // 2:
