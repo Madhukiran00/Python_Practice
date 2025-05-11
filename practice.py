@@ -1104,8 +1104,6 @@ print(calendar.month(2003,6))'''
 #     for j in range(i,0,-1):
 #         print("*",end=" ")
 #     print("\n")
-
-
 def my_decorator(fun):
     def madhu():
         print("Before the function run ")
