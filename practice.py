@@ -1104,17 +1104,19 @@ print(calendar.month(2003,6))'''
 #     for j in range(i,0,-1):
 #         print("*",end=" ")
 #     print("\n")
-def my_decorator(fun):
-    def madhu():
-        print("Before the function run ")
-        fun()
-        print("after the function call ")
-    return madhu
 
-def say_hi():
-    print("Hello")
-say_hi = my_decorator(say_hi)
-say_hi()
+
+# def my_decorator(fun):
+#     def madhu():
+#         print("Before the function run ")
+#         fun()
+#         print("after the function call ")
+#     return madhu
+
+# def say_hi():
+#     print("Hello")
+# say_hi = my_decorator(say_hi)
+# say_hi()
     
 
 
