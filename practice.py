@@ -1106,6 +1106,21 @@ print(calendar.month(2003,6))'''
 #     print("\n")
 
 
+def my_decorator(fun):
+    
+    def wrapper():
+        print("Before the function run ")
+        fun()
+        print("after the function call ")
+    return wrapper
+
+
+@my_decorator
+
+def say_hi():
+    print("Hello")
+
+say_hi()
     
 
 
