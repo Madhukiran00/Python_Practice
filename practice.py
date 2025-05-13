@@ -1027,8 +1027,6 @@ print(calendar.month(2003,6))'''
 #             print(" ", end="")
 #     print()
 
-
-
 # n = 7 
 # for row in range(n):
 #     for col in range(n):
@@ -1075,10 +1073,6 @@ print(calendar.month(2003,6))'''
 #             print(" ", end="")
 #     print()
 # print()
-
-
-
-
 
 # for row in range(n):
 #     for col in range(n):
