@@ -911,13 +911,6 @@ print(calendar.month(2003,6))'''
 #             res2+=" "+" "
 #     print(res2)
 
-
-            
-            
-            
-            
-            
-            
 # row=5
 # for i in range (1,row+1):
 #     res1=""
