@@ -1148,3 +1148,21 @@ print(calendar.month(2003,6))'''
 #         else:
 #             print(" ",end=" ")
 #     print()
+
+
+
+
+# name="madhu"
+# vowels="aeiou"
+
+# res=""
+
+# for char in name:
+#     if char in vowels:
+#         res+= str(vowels.index(char)+1)
+#     else:
+#         code=ord(char)
+#         res+=chr(code+1)
+        
+# print(res)
+ 
