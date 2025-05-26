@@ -930,15 +930,7 @@ print(calendar.month(2003,6))'''
 #     b=a+b
 #     print(a)
 #     a=b
-
-
-
-
-
-
-
-
-# use_input=int(input())
+# # use_input=int(input())
     
 # *         *
 # * *     * *
