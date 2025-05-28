@@ -863,6 +863,9 @@ print(calendar.month(2003,6))'''
 #         string+=str(col+1)+" "
 #     print(string)
 
+
+
+
 # num=7
 # if num & 1==0:
 #     print("even")
