@@ -1166,17 +1166,34 @@ print(calendar.month(2003,6))'''
 #             print(" ",end=" ")
 #     print()
 
-name="madhu"
-vowels="aeiou"
+# name="madhu"
+# vowels="aeiou"
 
-res=""
+# res=""
 
-for char in name:
-    if char in vowels:
-        res+= str(vowels.index(char)+1)
-    else:
-        code=ord(char)
-        res+=chr(code+1)
+# for char in name:
+#     if char in vowels:
+#         res+= str(vowels.index(char)+1)
+#     else:
+#         code=ord(char)
+#         res+=chr(code+1)
         
-print(res)
- 
+# # print(res)
+
+# cou=5
+# for i in range(2,n+1):
+#     is_prime=True
+#     for j in range(2,i):
+#         if i%j==0:
+#             is_prime=False
+#             break
+#     if is_prime :
+#         print(i,end=" ")
+#         count+=1
+
+
+n=10
+co=True
+while co:
+     for i in range()
+    
