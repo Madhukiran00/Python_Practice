@@ -365,9 +365,6 @@
 # print(string[-1:])  #output=> n
 
 # print(string[0 : : 2]) #output=> Pto
-
-
-
 # original = [[1, 2], [3, 4]]
 
 # #Shallow Copy
@@ -410,9 +407,7 @@
 #         break
 #     else:
 #         big=big+n
-        
-
-#Python Comprehension
+        #Python Comprehension
 
 #List Comprehension
 # squares = [x**2 for x in range(5)]  # [0, 1, 4, 9, 16]
@@ -437,12 +432,6 @@
 #     max_num += 1
 
 # print("LCM of", num1,num2,num3, "is:", lcm)
-
-
-
-
-
-
 # count=0
 # num=100
 # if num==1:
