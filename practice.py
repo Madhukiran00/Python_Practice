@@ -44,6 +44,9 @@
 # try:
 #     print(b)
     
+    
+    
+    
 # except NameError :
 #     print("The b not defined")
 # except TypeError:
