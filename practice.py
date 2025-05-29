@@ -601,13 +601,6 @@ print(calendar.month(2003,6))'''
 
 # # Output => [('a', 1), ('b', 2), ('c', 3), ('d', 4), ('e', 5), ('f', 6)]
 
-
-
-
-
-
-
-
 # class Car:
 #     # Class variables
 #     def __init__(self, brand, model, year): #Constructor
@@ -628,10 +621,6 @@ print(calendar.month(2003,6))'''
 # car1.display_info() #Output: Car Brand: Toyota,Model: Camry,Year: 2022
 # print("\n")
 # car2.display_info() # Output: Car Brand: Hyundai,Model: Verna,Year: 2023
-
-
-
-
 #Single Inheritance
 
 # # Parent class
