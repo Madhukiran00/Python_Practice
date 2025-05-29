@@ -809,9 +809,6 @@ print(calendar.month(2003,6))'''
 #     elif ord(st[i])>=97 and ord(st[i])<=122:
 #         new_str+=chr(ord(st[i])-32)
 # print(new_str)
-
-
-
 # st='PythonDeveloper'
 
 # for i in range(-1,-len(st),-1):
@@ -826,11 +823,6 @@ print(calendar.month(2003,6))'''
 # count=0
 # temp=n
 # temp2=n
-
-
-
-
-
 # while n!=0:
     # rem=n%10
     # count+=1
