@@ -31,8 +31,6 @@
 # file.seek(2)
 # print(file.read())
 # file.close()
-
-
 # a=7
 # try:
 #     print(a)
