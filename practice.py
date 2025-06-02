@@ -1174,8 +1174,8 @@ print(calendar.month(2003,6))'''
 
 
 
-n=10
-co=True
-while co:
-     for i in range()
+# n=10
+# co=True
+# while co:
+#      for i in range()
     
