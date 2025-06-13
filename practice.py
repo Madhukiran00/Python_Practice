@@ -1179,3 +1179,5 @@ print(calendar.month(2003,6))'''
 # while co:
 #      for i in range()
     
+def decorator_function(func):
+    def wrapper():
