@@ -1179,5 +1179,22 @@ print(calendar.month(2003,6))'''
 # while co:
 #      for i in range()
     
-def decorator_function(func):
-    def wrapper():
+# def decorator_function(func):
+#     def wrapper():
+
+
+#Diagonal elements of a matrix
+
+li=[[1,2,3],[4,5,6],[7,8,9]]
+for i in range(len(li)):
+   print(li[i][i],end=" ")
+   
+#Output:1 5 9
+#------------------------------
+
+#Finding the maximum index of a list of lists
+li=[[1,2],[4,5,6],[7,8,9,3]]
+re=max([i for i in range(len(li))])
+print(re)
+#Output= 2
+
