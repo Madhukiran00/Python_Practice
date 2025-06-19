@@ -1263,6 +1263,48 @@ print(calendar.month(2003,6))'''
 # lis[2:1]=[5,6,7]
 # lis.insert(2,5,5)
 # lis.extend([8,9])
-lis=[1,2,3,4]
-lis[2:1]=[11,12,13]
-print(lis)
+
+
+# lis[2:]=[11,12,13]
+# print(lis)
+# lis[2:0]=[11,12,13]
+# print(lis)
+# lis[2:1]=[11,12,13]
+# print(lis)
+# lis[2:2]=[11,12,13]
+# print(lis)
+# lis[2:3]=[11,12,13]
+# print(lis)
+# lis[2:4]=[11,12,13]
+# print(lis)
+
+# lis=[1,2,3,4]
+# new=[11,12,13]
+# lis[2:2]=new
+# print(lis)
+
+
+license
+
+
+
+
+
+
+lis=[1,2,3,4,5,6]
+use=3
+use_list=[6,7,8]
+
+out=1,2,3,6,7,8,5,6
+
+
+# j=0
+# for i in range(2,len(use_list)+1):
+#     lis[i]=use_list[j]
+#     j+=1
+# print(lis)
+
+
+
+
+
