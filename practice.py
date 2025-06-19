@@ -1183,18 +1183,64 @@ print(calendar.month(2003,6))'''
 #     def wrapper():
 
 
-#Diagonal elements of a matrix
+# #Diagonal elements of a matrix
 
-li=[[1,2,3],[4,5,6],[7,8,9]]
-for i in range(len(li)):
-   print(li[i][i],end=" ")
+# li=[[1,2,3],[4,5,6],[7,8,9]]
+# for i in range(len(li)):
+#    print(li[i][i],end=" ")
    
-#Output:1 5 9
-#------------------------------
+# #Output:1 5 9
+# #------------------------------
 
-#Finding the maximum index of a list of lists
-li=[[1,2],[4,5,6],[7,8,9,3]]
-re=max([i for i in range(len(li))])
-print(re)
+# #Finding the maximum index of a list of lists
+# li=[[1,2],[4,5,6],[7,8,9,3]]
+# re=max([i for i in range(len(li))])
+# print(re)
 #Output= 2
 
+
+
+# name="ma_dhu_ki_ran"
+# new_str=" "
+# for i in range(len(name)):
+#    if name[i]=="_" and i<=len(name)-2:
+#        cap_let=(name[i+1]).upper()
+#        new_str+=cap_let
+      
+#    else:
+#        if  name[i] !="_" and chr(ord((name[i]).lower())-32)!= new_str[-1]:
+#            new_str+=name[i]
+# print(new_str)
+
+
+# x="ma_dh_u_ki_ran"
+# i=0
+# for j in range(len(x)):
+
+
+
+# str="ma_dhu_ki_ran"
+# res=''
+# for i in range(len(str)):
+#     if str[i]=='_' and i<=len(str)-2:
+#         s1=str[i+1]
+#         s1=s1.upper()
+#         res=res+s1
+#     else:
+#         if str[i-1]=="_" and (i-1)!=-1:
+#             continue
+#         else:
+#             # if str[i]!="_":
+#                 res+=str[i]
+# print(res)
+    
+    
+lis=[1,2,3,4,5,6,7,8,9]
+
+# for i in range(-len(lis),0,1):
+#     print(lis[i],end=" ")
+
+# i=0
+# while i<len(lis):
+#     print(lis[i],end=" ")
+#     i+=1
