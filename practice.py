@@ -1244,12 +1244,17 @@ print(calendar.month(2003,6))'''
 # while i<len(lis):
 #     print(lis[i],end=" ")
 #     i+=1
+# count=0
+# val=0
+# for i in range(len(lis)):
+#     if lis.count(lis[i])>count:
+#         count=lis.count(lis[i])
+#         val=lis[i]
+# print(val)
+
 lis=[1,2,4,2,6,1,1,3,3,3,3,2]
-count=0
-val=0
-for i in range(len(lis)):
-    if lis.count(lis[i])>count:
-        count=lis.count(lis[i])
-        val=lis[i]
-print(val)
-    
+
+lis2=lis.copy()
+lis[0]=10
+print(lis2)
+print(lis)
