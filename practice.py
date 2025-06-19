@@ -1260,7 +1260,9 @@ print(calendar.month(2003,6))'''
 # lis.insert(2,2)
 # lis[2:2]=[5,6]
 
+# lis[2:1]=[5,6,7]
+# lis.insert(2,5,5)
+# lis.extend([8,9])
 lis=[1,2,3,4]
-lis[2:1]=[5,6,7]
-lis.extend([8,9])
+lis[2:1]=[11,12,13]
 print(lis)
