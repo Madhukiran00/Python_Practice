@@ -1312,13 +1312,38 @@ out=1,2,3,6,7,8,5,6
 
 
 
-lis=[1,2,3,4,5,6]
+# lis=[1,2,3,4,5,6]
 
-user_index=3
-user_list=[6,7,8]  #1,2,3,6,7,8,4,5,6
+# user_index=3
+# user_list=[6,7,8]  #1,2,3,6,7,8,4,5,6
 
-res=[]
+# res=[]
 
-for i in range(0,len(lis)+len(user_li))
+# for i in range(0,len(lis)+len(user_li))
+
+
+lis=[1,2,3,4]
+use_index=3
+user_lis=[4,5,6]
+lis[use_index:use_index]=user_lis
+# lis.append(1,2,3)
+print(lis)
+
+# user_index=3
+# user_list=[6,7,8]  #1,2,3,6,7,8,4,5,6
+
+# res=[]
+# j=0
+# for i in range(0,(len(lis)+len(user_list))):
+#     if i<3:
+#         res.append(lis[i])
+        
+#     elif j<len(user_list):
+#         res.append(user_list[j])
+#         j+=1
+#     else:
+#         res.append(i-(len(user_list)-1))
+# print(res)
+
 
 
