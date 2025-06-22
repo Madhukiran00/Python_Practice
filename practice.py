@@ -1322,12 +1322,12 @@ out=1,2,3,6,7,8,5,6
 # for i in range(0,len(lis)+len(user_li))
 
 
-lis=[1,2,3,4]
-use_index=3
-user_lis=[4,5,6]
-lis[use_index:use_index]=user_lis
-# lis.append(1,2,3)
-print(lis)
+# lis=[1,2,3,4]
+# use_index=3
+# user_lis=[4,5,6]
+# lis[use_index:use_index]=user_lis
+# # lis.append(1,2,3)
+# print(lis)
 
 # user_index=3
 # user_list=[6,7,8]  #1,2,3,6,7,8,4,5,6
@@ -1345,5 +1345,17 @@ print(lis)
 #         res.append(i-(len(user_list)-1))
 # print(res)
 
+
+lis=["flower","flow","flight","flourish"]
+small_str=[]
+c=len(lis[0])
+for i in range(len(lis)):
+    if len(lis[i])<c:
+        c=len(lis[i])
+        
+
+        
+
+    
 
 
