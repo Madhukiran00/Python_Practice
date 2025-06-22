@@ -1332,6 +1332,11 @@ out=1,2,3,6,7,8,5,6
 # user_index=3
 # user_list=[6,7,8]  #1,2,3,6,7,8,4,5,6
 
+
+
+
+
+
 # res=[]
 # j=0
 # for i in range(0,(len(lis)+len(user_list))):
