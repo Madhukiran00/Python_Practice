@@ -1353,6 +1353,14 @@ for i in range(len(lis)):
     if len(lis[i])<c:
         c=len(lis[i])
         
+        
+        
+        
+        
+        
+        
+        
+        
 
         
 
