@@ -1351,7 +1351,7 @@ print(calendar.month(2003,6))'''
 
         
         
-im    
+import numpy as np    
         
         
 
