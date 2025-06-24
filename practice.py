@@ -1358,12 +1358,7 @@ out=1,2,3,6,7,8,5,6
 #     if len(lis[i])<c:
 #         c=len(lis[i])
         
-       
-       
-# prime number logic
- 
-        
-        
+
         
         
         
