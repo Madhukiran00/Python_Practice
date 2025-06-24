@@ -1351,14 +1351,17 @@ out=1,2,3,6,7,8,5,6
 # print(res)
 
 
-lis=["flower","flow","flight","flourish"]
-small_str=[]
-c=len(lis[0])
-for i in range(len(lis)):
-    if len(lis[i])<c:
-        c=len(lis[i])
+# lis=["flower","flow","flight","flourish"]
+# small_str=[]
+# c=len(lis[0])
+# for i in range(len(lis)):
+#     if len(lis[i])<c:
+#         c=len(lis[i])
         
-        
+       
+       
+# prime number logic
+ 
         
         
         
