@@ -1284,18 +1284,18 @@ print(calendar.month(2003,6))'''
 # print(lis)
 
 
-license
+# license
 
 
 
 
 
 
-lis=[1,2,3,4,5,6]
-use=3
-use_list=[6,7,8]
+# lis=[1,2,3,4,5,6]
+# use=3
+# use_list=[6,7,8]
 
-out=1,2,3,6,7,8,5,6
+# out=1,2,3,6,7,8,5,6
 
 
 # j=0
@@ -1351,7 +1351,7 @@ out=1,2,3,6,7,8,5,6
 
         
         
-        
+im    
         
         
 
