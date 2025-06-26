@@ -1347,13 +1347,23 @@ print(calendar.month(2003,6))'''
 # for i in range(len(lis)):
 #     if len(lis[i])<c:
 #         c=len(lis[i])
-        
+    
+    
+# lis=[[1,2,3],[4,5,6],[7,8,9]]
 
-        
-        
-import numpy as np    
-        
-        
+# for i in range()  
+ 
+ 
+ #2**3
+# res=1
+# for i in range(3):
+#     temp=0
+#     for j in range(2): 
+#         temp+=res
+#     res=temp
+# print(res)
+              
+     
 
         
 
