@@ -1383,7 +1383,25 @@ print(calendar.month(2003,6))'''
 #     print("") 
 
 
-              
+import requests
+
+def send_otp_via_fast2sms(phone_number, otp):
+    url = "https://www.fast2sms.com/dev/bulkV2"
+    headers = {
+        "authorization": "YOUR_API_KEY_HERE",
+    }
+    payload = {
+        "variables_values": otp,
+        "route": "otp",
+        "numbers": phone_number
+    }
+    response = requests.post(url, headers=headers, data=payload)
+    return response.text
+
+otp = generate_otp()
+print("Generated OTP:", otp)
+response = send_otp_via_fast2sms("9876543210", otp)
+print("API Response:", response)             
      
 
         
