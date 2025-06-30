@@ -1406,25 +1406,25 @@ print(calendar.month(2003,6))'''
      
 import math as m
 #SQUARE ROOT
-print(m.sqrt(64))
+print("SQUARE ROOT:",m.sqrt(64))
 #FACTORIAL
-print(m.factorial(5))
+print("FACTORIAL:",m.factorial(5))
 #LCM
-print(m.lcm(12,8))
+print("LCM:",m.lcm(12,8))
 #GCD
-print(m.gcd(12,8))
+print("GCD:",m.gcd(12,8))
 #CEIL
-print(m.ceil(2.4))
+print("CEIL:",m.ceil(2.4))
 #FLOOR
-print(m.floor(2.4))
+print("FLOOR:",m.floor(2.4))
 # Euler's Number
-print(m.e)
+print("Euler's Number:",m.e)
 #PI VALUE
-print(m.pi)
+print("PI VALUE:",m.pi)
 #ABSOLUTE VALUE
-print(m.fabs(-10))
+print("ABSOLUTE VALUE:",m.fabs(-10))
 #POWER
-print(m.pow(2,3))
+print("POWER:",m.pow(2,3))
 
         
 

@@ -1,0 +1,22 @@
+   
+import math as m
+#SQUARE ROOT
+print("SQUARE ROOT:",m.sqrt(64))
+#FACTORIAL
+print("FACTORIAL:",m.factorial(5))
+#LCM
+print("LCM:",m.lcm(12,8))
+#GCD
+print("GCD:",m.gcd(12,8))
+#CEIL
+print("CEIL:",m.ceil(2.4))
+#FLOOR
+print("FLOOR:",m.floor(2.4))
+# Euler's Number
+print("Euler's Number:",m.e)
+#PI VALUE
+print("PI VALUE:",m.pi)
+#ABSOLUTE VALUE
+print("ABSOLUTE VALUE:",m.fabs(-10))
+#POWER
+print("POWER:",m.pow(2,3))
