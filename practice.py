@@ -1383,26 +1383,48 @@ print(calendar.month(2003,6))'''
 #     print("") 
 
 
-import requests
+# import requests
 
-def send_otp_via_fast2sms(phone_number, otp):
-    url = "https://www.fast2sms.com/dev/bulkV2"
-    headers = {
-        "authorization": "YOUR_API_KEY_HERE",
-    }
-    payload = {
-        "variables_values": otp,
-        "route": "otp",
-        "numbers": phone_number
-    }
-    response = requests.post(url, headers=headers, data=payload)
-    return response.text
+# def send_otp_via_fast2sms(phone_number, otp):
+#     url = "https://www.fast2sms.com/dev/bulkV2"
+#     headers = {
+#         "authorization": "YOUR_API_KEY_HERE",
+#     }
+#     payload = {
+#         "variables_values": otp,
+#         "route": "otp",
+#         "numbers": phone_number
+#     }
+#     response = requests.post(url, headers=headers, data=payload)
+#     return response.text
 
-otp = generate_otp()
-print("Generated OTP:", otp)
-response = send_otp_via_fast2sms("9876543210", otp)
-print("API Response:", response)             
+# otp = generate_otp()
+# print("Generated OTP:", otp)
+# response = send_otp_via_fast2sms("9876543210", otp)
+# print("API Response:", response)             
      
+     
+import math as m
+#SQUARE ROOT
+print(m.sqrt(64))
+#FACTORIAL
+print(m.factorial(5))
+#LCM
+print(m.lcm(12,8))
+#GCD
+print(m.gcd(12,8))
+#CEIL
+print(m.ceil(2.4))
+#FLOOR
+print(m.floor(2.4))
+
+print(m.e)
+#PI
+print(m.pi)
+#
+print(m.fabs(-10))
+#POWER
+print(m.pow(2,3))
 
         
 
