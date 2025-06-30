@@ -1417,11 +1417,11 @@ print(m.gcd(12,8))
 print(m.ceil(2.4))
 #FLOOR
 print(m.floor(2.4))
-
+# Euler's Number
 print(m.e)
-#PI
+#PI VALUE
 print(m.pi)
-#
+#ABSOLUTE VALUE
 print(m.fabs(-10))
 #POWER
 print(m.pow(2,3))
