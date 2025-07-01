@@ -1404,30 +1404,106 @@ print(calendar.month(2003,6))'''
 # print("API Response:", response)             
      
      
-import math as m
-#SQUARE ROOT
-print("SQUARE ROOT:",m.sqrt(64))
-#FACTORIAL
-print("FACTORIAL:",m.factorial(5))
-#LCM
-print("LCM:",m.lcm(12,8))
-#GCD
-print("GCD:",m.gcd(12,8))
-#CEIL
-print("CEIL:",m.ceil(2.4))
-#FLOOR
-print("FLOOR:",m.floor(2.4))
-# Euler's Number
-print("Euler's Number:",m.e)
-#PI VALUE
-print("PI VALUE:",m.pi)
-#ABSOLUTE VALUE
-print("ABSOLUTE VALUE:",m.fabs(-10))
-#POWER
-print("POWER:",m.pow(2,3))
+# import math as m
+# #SQUARE ROOT
+# print("SQUARE ROOT:",m.sqrt(64))
+# #FACTORIAL
+# print("FACTORIAL:",m.factorial(5))
+# #LCM
+# print("LCM:",m.lcm(12,8))
+# #GCD
+# print("GCD:",m.gcd(12,8))
+# #CEIL
+# print("CEIL:",m.ceil(2.4))
+# #FLOOR
+# print("FLOOR:",m.floor(2.4))
+# # Euler's Number
+# print("Euler's Number:",m.e)
+# #PI VALUE
+# print("PI VALUE:",m.pi)
+# #ABSOLUTE VALUE
+# print("ABSOLUTE VALUE:",m.fabs(-10))
+# #POWER
+# print("POWER:",m.pow(2,3))
 
         
 
+
+# def max_num(lis):
+#     return max(lis)
+
+# lis=[3,6,8,4,8,9,4,6]
+# print(max_num(lis))
+
+
+# def max_num(lis):
+#     sort_lis=lis.sort()
+#     a=sort_lis[-1]
+    
+#     return a
+# lis=[3,6,8,4,8,9,4,6]
+# max_num(lis)
     
 
+
+
+# lis=[3,6,8,4,8,9,4,6]
+
+
+# lis.sort()
+# b=-1
+# for i in range(len(lis)):
+#     if lis[b]!=lis[b]:
+#         print(lis[-2])
+#     else:
+      
+# b="a[3]b[2]c[1]"  
+# res=""
+
+# c=""
+# for i in range(len(b)):
+#     if b[i]=="[":
+#         c+=b[i+
+    
+#     elif b[i].isalpha:
+#         res+=b[i]
+#     elif b[i].isdigit:
+        
+
+
+# s="a[3]b[2]c[1]" 
+# res=""
+# d=""
+# a=""
+# for i in range(len(s)):
+#     if s[i].isalpha():
+#         a+=s[i]
+    
+#     elif s[i]=="[":
+#         pass
+#     elif s[i]=="]":
+#         res+=(a)*int(d)
+#         d=""
+#         a=""
+    
+#     elif s[i].isdigit():
+#         d+=s[i]
+        
+# print(res)
+        
+s="aaabbcc"
+
+res=""
+count=1
+for i in range(1,len(s)):
+    if s[i]==s[i-1]:
+        count+=1
+    elif s[i]!=s[i-1]:
+        res+=s[i-1]+str(count)
+        count=1
+res+=s[i]+str(count)
+print(res)
+    
+      
+        
 
