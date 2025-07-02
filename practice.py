@@ -1491,19 +1491,37 @@ print(calendar.month(2003,6))'''
         
 # print(res)
         
-s="aaabbcc"
+# s="aaabbcc"
 
-res=""
-count=1
-for i in range(1,len(s)):
-    if s[i]==s[i-1]:
-        count+=1
-    elif s[i]!=s[i-1]:
-        res+=s[i-1]+str(count)
-        count=1
-res+=s[i]+str(count)
-print(res)
+# res=""
+# count=1
+# for i in range(1,len(s)):
+#     if s[i]==s[i-1]:
+#         count+=1
+#     elif s[i]!=s[i-1]:
+#         res+=s[i-1]+str(count)
+#         count=1
+# res+=s[i]+str(count)
+# print(res)
     
-      
+a=[[1,2,3],
+   [4,5,6],
+   [7,8,9]]   
+
+b=[[7,8,9],   #[8,10,12]
+   [4,5,6],   #[8,10,12]
+   [1,2,3]]   #[8,10,12]
         
+res=[]
+for i in range(len(a)):
+    l=[]
+    for j in range(len(a)):
+        l.append((a[i][j])+(b[i][j]))
+    res.append(l)
+    
+print(res)
+
+
+
+
 
