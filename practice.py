@@ -1504,24 +1504,104 @@ print(calendar.month(2003,6))'''
 # res+=s[i]+str(count)
 # print(res)
     
-a=[[1,2,3],
-   [4,5,6],
-   [7,8,9]]   
+# a=[[1,2,3],
+#    [4,5,6],
+#    [7,8,9]]   
 
-b=[[7,8,9],   #[8,10,12]
-   [4,5,6],   #[8,10,12]
-   [1,2,3]]   #[8,10,12]
+# b=[[7,8,9],   #[8,10,12]
+#    [4,5,6],   #[8,10,12]
+#    [1,2,3]]   #[8,10,12]
         
-res=[]
-for i in range(len(a)):
-    l=[]
-    for j in range(len(a)):
-        l.append((a[i][j])+(b[i][j]))
-    res.append(l)
+# res=[]
+# for i in range(len(a)):
+#     l=[]
+#     for j in range(len(a)):
+#         l.append((a[i][j])+(b[i][j]))
+#     res.append(l)
+    
+# print(res)
+
+
+
+# a=[[1,2,3],
+#    [4,5,6],
+#    [7,8,9]]   
+
+# b=[[7,8,9],   
+#    [4,5,6],  
+#    [1,2,3]]  
+
+
+# res=[]
+# for i in range(len(a)):
+#     l=[]
+#     for j in range(len(a)):
+#         l.append((a[i][j])*(b[j][i]))
+#     res.append(l)
+        
+# print(res)
+
+
+# s="ma_dhu_kir_an"
+
+# ne=""
+# for i in range(len(s)):
+#     if s[i]=="_":
+        
+
+# num=2518 #5182
+# list=["1534","2518","86","2001"]
+# new_list=[]
+
+# res=""
+# for j in range(len(list)):
+#     new_num=list[j]
+#     for i in range(len(new_num)):
+#         if int(new_num[i]) % 2 != 0:
+#             new_list.append( new_num[i:] + new_num[:i])
+#             break
+#         elif (len(new_num)-1)==i:
+#             new_list.append(new_num)
+            
+            
+# print(new_list)
+
+
+
+
+# s="abcde"
+# sub="ec"
+# k=0
+# for i in range(len(s)):
+#     if sub[k]==s[i]:
+#         k=k+1
+        
+# if k==len(sub):
+#     print("yes")
+# else:
+#     print("no")
+  
+
+n = "21582950"
+res = ""
+
+
+for i in range(len(n)):
+    if int(n[i]) % 2 != 0:
+        res = n[i:]
+        break
+
+
+while int(res)%2==0:
+    res=str(int(res)//10)
     
 print(res)
-
-
+    
+    
+    
+    
+    
+    
 
 
 
