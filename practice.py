@@ -1598,15 +1598,25 @@ print(calendar.month(2003,6))'''
 # print(res)
     
 
-a=[1,2,3,4]
+# a=[1,2,3,4]
 
-b=a.copy()
-a[0]=15
-print(a,b)
+# b=a.copy()
+# a[0]=15
+# print(a,b)
     
+    
+    
+class Madhu():
+    def __init__(self):
+        self.name = "Madhu"
+        self.age = 25
+
+    def display_info(self):
+        print(f"Name: {self.name}, Age: {self.age}")
     
     
     
 
-
+Madhu_obj = Madhu()
+Madhu_obj.display_info() 
 
