@@ -1582,22 +1582,27 @@ print(calendar.month(2003,6))'''
 #     print("no")
   
 
-n = "21582950"
-res = ""
+# n = "21582950"
+# res = ""
 
 
-for i in range(len(n)):
-    if int(n[i]) % 2 != 0:
-        res = n[i:]
-        break
+# for i in range(len(n)):
+#     if int(n[i]) % 2 != 0:
+#         res = n[i:]
+#         break
 
 
-while int(res)%2==0:
-    res=str(int(res)//10)
+# while int(res)%2==0:
+#     res=str(int(res)//10)
     
-print(res)
+# print(res)
     
-    
+
+a=[1,2,3,4]
+
+b=a.copy()
+a[0]=15
+print(a,b)
     
     
     
