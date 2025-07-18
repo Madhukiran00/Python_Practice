@@ -8,6 +8,9 @@ print(r.random()) # 0 to 0.999...
 print(r.randint(1,10)) # (start ,step),integer values
 #Output:9
 
+
+
+
 #Uniform
 print(r.uniform(1,10)) #(start ,step),floting values
 #Output:7.787197134423756
