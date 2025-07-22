@@ -1628,6 +1628,10 @@ print(calendar.month(2003,6))'''
 # print(next(ki))
 
 
+# lis=[i%2==0 for i in range(0,10)]
+# print(lis)
+
+
 
 
 
