@@ -1606,17 +1606,52 @@ print(calendar.month(2003,6))'''
     
     
     
-class Madhu():
-    def __init__(self):
-        self.name = "Madhu"
-        self.age = 25
+# class Madhu():
+#     def __init__(self):
+#         self.name = "Madhu"
+#         self.age = 25
 
-    def display_info(self):
-        print(f"Name: {self.name}, Age: {self.age}")
+#     def display_info(self):
+#         print(f"Name: {self.name}, Age: {self.age}")
     
     
     
 
-Madhu_obj = Madhu()
-Madhu_obj.display_info() 
+# Madhu_obj = Madhu()
+# Madhu_obj.display_info() 
+
+# lis=[1,2,3,4,5]
+
+# ki=iter(lis)
+# print(next(ki))
+# print(next(ki))
+# print(next(ki))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
