@@ -1671,14 +1671,25 @@ print(calendar.month(2003,6))'''
 
 
 
-from collections import ChainMap
+# from collections import ChainMap
 
-dict1 = {'a': 1, 'b': 2}
-dict2 = {'b': 30, 'c': 3}
-cm = ChainMap(dict1, dict2)
+# dict1 = {'a': 1, 'b': 2}
+# dict2 = {'b': 30, 'c': 3}
+# cm = ChainMap(dict1, dict2)
 
-print(cm["a"])
+# print(cm["a"])
 
+
+
+l=[1,2,3,]
+n=l.copy()
+l[0]=50
+print(l,n)
+
+l=[1,2,3,]
+n=l
+l[0]=50
+print(l,n)
 
 
 
