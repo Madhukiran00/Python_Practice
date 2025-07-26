@@ -1661,12 +1661,24 @@ print(calendar.month(2003,6))'''
 #     print(i["i"])
 
 
-from collections import deque
+# from collections import deque
 
-a=deque([1,2,3,4])
+# a=deque([1,2,3,4])
 
-a.append(7)
-print(a)    
+# a.append(7)
+# print(a)    
+
+
+
+
+from collections import ChainMap
+
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'b': 30, 'c': 3}
+cm = ChainMap(dict1, dict2)
+
+print(cm["a"])
+
 
 
 
