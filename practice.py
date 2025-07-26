@@ -1697,8 +1697,11 @@ print(calendar.month(2003,6))'''
 # l.append([4])
 # l.extend([1,2])
 # l.insert(1,10)
-l=[1,2,3]
-print(l.index(2))
+
+# l=[1,2,3]
+# print(l.index(2))
+
+
 
 
 
