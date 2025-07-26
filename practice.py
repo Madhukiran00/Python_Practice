@@ -1721,17 +1721,18 @@ print(calendar.month(2003,6))'''
 # print(gc.collect())  # Will collect the circular reference
 
 
-
+import gc
 class A:
     def __init__(self):
         self.b=None
         
-    
 a=A()
 b=A()
-
 a.b=b
 b.b=a
+a= None
+b= None
+print(gc.collect())
 
 
 
