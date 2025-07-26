@@ -1634,14 +1634,39 @@ print(calendar.month(2003,6))'''
 # print(next(ki))
 
 
-
-
 # lis=[i%2==0 for i in range(0,10)]
 # print(lis)
 
 
 
+# namedtuple
+# deque
+# counter
+# defaultdict
+# OrderedDict
 
+
+# from collections import namedtuple
+
+# a=namedtuple("some",["a","b"])
+# f=a(1,2)
+# print(f.a,f.b)
+
+
+# from collections import Counter
+
+# di=Counter("aabbccdd")
+
+# for i in di:
+#     print(i["i"])
+
+
+from collections import deque
+
+a=deque([1,2,3,4])
+
+a.append(7)
+print(a)    
 
 
 
