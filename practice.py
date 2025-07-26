@@ -1626,10 +1626,14 @@ print(calendar.month(2003,6))'''
 
 # lis=[1,2,3,4,5]
 
+
+
 # ki=iter(lis)
 # print(next(ki))
 # print(next(ki))
 # print(next(ki))
+
+
 
 
 # lis=[i%2==0 for i in range(0,10)]
