@@ -1701,8 +1701,37 @@ print(calendar.month(2003,6))'''
 # l=[1,2,3]
 # print(l.index(2))
 
+# import gc
+
+# class A:
+#     def __init__(self):
+#         self.b = None
+
+# # Create circular reference
+# a = A()
+# b = A()
+# a.b = b
+# b.b = a
+
+# # Remove references
+# a = None
+# b = None
+
+# # Collect garbage
+# print(gc.collect())  # Will collect the circular reference
 
 
+
+class A:
+    def __init__(self):
+        self.b=None
+        
+    
+a=A()
+b=A()
+
+a.b=b
+b.b=a
 
 
 
