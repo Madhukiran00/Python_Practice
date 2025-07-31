@@ -1738,10 +1738,10 @@ print(calendar.month(2003,6))'''
 
 
 
-l=[1,2,3]
-b=l
-l[1]=90
-print(l,b)
+# l=[1,2,3]
+# b=l
+# l[1]=90
+# print(l,b)
 
 
 
