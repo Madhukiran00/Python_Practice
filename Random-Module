@@ -1,42 +1,42 @@
-import random as r
+# import random as r
 
-#Random 
-print(r.random()) # 0 to 0.999...
-#Output:0.2761642938958674
+# #Random 
+# print(r.random()) # 0 to 0.999...
+# #Output:0.2761642938958674
 
-#randint
-print(r.randint(1,10)) # (start ,step),integer values
-#Output:9
+# #randint
+# print(r.randint(1,10)) # (start ,step),integer values
+# #Output:9
 
-#Uniform
-print(r.uniform(1,10)) #(start ,step),floting values
-#Output:7.787197134423756
+# #Uniform
+# print(r.uniform(1,10)) #(start ,step),floting values
+# #Output:7.787197134423756
 
-#choice
-print(r.choice([1,2,3,4,5,6,7])) # It return single value
-#Output:3
+# #choice
+# print(r.choice([1,2,3,4,5,6,7])) # It return single value
+# #Output:3
 
-#choices
-print(r.choices([1,2,3,4,5,6,7],k=2)) #based on k value, if k>= len of array it returns duplicates
-#Output:[7, 6]
+# #choices
+# print(r.choices([1,2,3,4,5,6,7],k=2)) #based on k value, if k>= len of array it returns duplicates
+# #Output:[7, 6]
 
-#sample
-print(r.sample([1,2,3,4,5,6,7],k=3))  #based on k value,if k>= len of array it returns Error
-#Output:[1, 7, 5]
+# #sample
+# print(r.sample([1,2,3,4,5,6,7],k=3))  #based on k value,if k>= len of array it returns Error
+# #Output:[1, 7, 5]
 
-#shuffle
-lis=["m","a","d","h","u"]
-r.shuffle(lis)
-print(lis)
-#Output:['u', 'h', 'd', 'a', 'm'] 
+# #shuffle
+# lis=["m","a","d","h","u"]
+# r.shuffle(lis)
+# print(lis)
+# #Output:['u', 'h', 'd', 'a', 'm'] 
 
-#randrange
-print(r.randrange(1,10,2)) #(start,stop,step)
-#Output:5
+# #randrange
+# print(r.randrange(1,10,2)) #(start,stop,step)
+# #Output:5
 
-#getrandombit
+# #getrandombit
 
-num=r.getrandbits(5)
-print(num)      #Output:6
-print(bin(num)) #Output:0b110
-print(bin(num)[2::]) #Output: 110
+# num=r.getrandbits(5)
+# print(num)      #Output:6
+# print(bin(num)) #Output:0b110
+# print(bin(num)[2::]) #Output: 110
