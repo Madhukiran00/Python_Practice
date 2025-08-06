@@ -8,6 +8,7 @@
 # print(r.randint(1,10)) # (start ,step),integer values
 # #Output:9
 
+
 # #Uniform
 # print(r.uniform(1,10)) #(start ,step),floting values
 # #Output:7.787197134423756
@@ -15,6 +16,7 @@
 # #choice
 # print(r.choice([1,2,3,4,5,6,7])) # It return single value
 # #Output:3
+
 
 # #choices
 # print(r.choices([1,2,3,4,5,6,7],k=2)) #based on k value, if k>= len of array it returns duplicates
