@@ -1469,17 +1469,6 @@ print(calendar.month(2003,6))'''
 #         res+=b[i]
 #     elif b[i].isdigit:
         
-
-
-
-
-
-
-
-
-
-
-
 # s="a[3]b[2]c[1]" 
 # res=""
 # d=""
