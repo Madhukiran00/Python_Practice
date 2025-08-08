@@ -1742,10 +1742,26 @@ print(calendar.month(2003,6))'''
 # print(l,b)
 
 
+n=5
+k=10
+num=((n*(n+1))//2)-1
+pr=num+k
 
+# 24
+# 22 23
+# 19 20 21
+# 15 16 17 18
+# 10 11 12 13 14
 
+for i in range(n):
+    li=[]
+    for j in range(i+1):
+        li.insert(0,pr)
+        pr=pr-1
+    print(*li)
+        
 
-
+    
 
 
 
