@@ -1122,8 +1122,6 @@ print(calendar.month(2003,6))'''
 #     * * *
 #   * * * *
 # * * * * *
-
-
 # rows=5
 
 # for row in range(1,rows+1):
@@ -1170,9 +1168,6 @@ print(calendar.month(2003,6))'''
 #     if is_prime :
 #         print(i,end=" ")
 #         count+=1
-
-
-
 
 # n=10
 # co=True
