@@ -1759,7 +1759,23 @@ print(calendar.month(2003,6))'''
 #     print(*li)
         
 
+
+string = "ABCDEFGHI"
+
+index1 = 2
+index2 = 3
+
+if index1 > index2:
+    index1, index2 = index2, index1
     
+a = string[:index1]             
+b = string[index1:index2+1][::-1]      
+c = string[index2+1:]                 
+
+result = a + b + c
+print(result)
+
+
 
 
 
