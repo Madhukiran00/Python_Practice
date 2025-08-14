@@ -1760,19 +1760,34 @@ print(calendar.month(2003,6))'''
         
 
 
-string = "ABCDEFGHI"
+# string = "ABCDEFGHI"
 
-index1 = 2
-index2 = 3
+# index1 = 2
+# index2 = 3
 
-if index1 > index2:
-    index1, index2 = index2, index1
+# if index1 > index2:
+#     index1, index2 = index2, index1
     
-a = string[:index1]             
-b = string[index1:index2+1][::-1]      
-c = string[index2+1:]                 
+# a = string[:index1]             
+# b = string[index1:index2+1][::-1]      
+# c = string[index2+1:]                 
 
-result = a + b + c
+# result = a + b + c
+# print(result)
+
+
+
+
+def generate_substrings(s):
+    substrings = []
+    for start in range(len(s)):
+        for end in range(start + 1, len(s) + 1):
+            substrings.append(s[start:end])
+    return substrings
+
+# Example usage
+string = "ABC"
+result = generate_substrings(string)
 print(result)
 
 
