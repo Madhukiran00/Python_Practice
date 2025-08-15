@@ -57,19 +57,66 @@
 //     cout<< a;
 // }
 
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     int length;
+//     int breath;
+//     int area;
+
+//     cout << "Enter the length:";
+//     cin >>length;
+//     cout <<"Enter the breath:";
+//     cin >>breath;
+//     area=length*breath;
+//     cout<<area;
+
+// }
+
+
+// int 
+// char
+
+// string
+// float
+// double
+
+// bool
+
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     char a=10,b=20,c=30;
+//     cout<< a << b << c ;
+// }
+
 #include<iostream>
 using namespace std;
 
 int main(){
-    int length;
-    int breath;
-    int area;
-
-    cout << "Enter the length:";
-    cin >>length;
-    cout <<"Enter the breath:";
-    cin >>breath;
-    area=length*breath;
-    cout<<area;
-
+    
+    string name="Mad";
+    string &name1=name;
+    cout<<name;
+    cout<<name1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
