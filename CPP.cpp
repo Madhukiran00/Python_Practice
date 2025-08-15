@@ -57,4 +57,19 @@
 //     cout<< a;
 // }
 
+#include<iostream>
+using namespace std;
 
+int main(){
+    int length;
+    int breath;
+    int area;
+
+    cout << "Enter the length:";
+    cin >>length;
+    cout <<"Enter the breath:";
+    cin >>breath;
+    area=length*breath;
+    cout<<area;
+
+}
