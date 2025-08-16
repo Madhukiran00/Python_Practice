@@ -92,18 +92,48 @@
 //     cout<< a << b << c ;
 // }
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int main(){
+// int main(){
     
-    string name="Mad";
-    string &name1=name;
-    cout<<name;
-    cout<<name1;
+//     string name="Mad";
+//     string &name1=name;
+//     cout<<name;
+//     cout<<name1;
+// }
+
+
+// #include <iostream>
+// #include<vector>
+// using namespace std;
+
+// void fun(int vars[4]){
+    
+//      for(int ch=0 ; ch<4;ch++){
+//         cout<<vars[ch]<<endl;
+//     }
+// }
+
+// int main(){
+//     int a[4]={1,2,3,4};
+//     fun(a);
+    
+ 
+// }
+
+
+void myFunction(int myNumbers[5]) {
+  for (int i = 0; i < 5; i++) {
+    cout << myNumbers[i] << "\n";
+  }
 }
 
-
+int main() {
+  int myNumbers[5] = {10, 20, 30, 40, 50};
+  myFunction(myNumbers);
+  return 0;
+}
 
 
 
