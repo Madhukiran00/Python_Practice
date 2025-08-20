@@ -125,7 +125,7 @@
 
 void myFunction(int myNumbers[5]) {
   for (int i = 0; i < 5; i++) {
-    cout << myNumbers[i] << "\n";
+    cout<< myNumbers[i] << "\n";
   }
 }
 
