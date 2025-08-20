@@ -49,3 +49,31 @@ int main(){
     }
     
 }
+
+
+Simple Calculator ( + , - , * , / ):
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    double a,b;
+    char op;
+    
+    cout<<"Enter first number:";
+    cin>>a;
+    
+    cout<<"Enter operator ";
+    cin>>op;
+    
+    cout<<"Enter secound number";
+    cin>>b;
+    
+    switch(op){
+        case '+':   cout<<"Output"<<a+b;break;
+        case '-':   cout<<"Output"<<a-b ;break;
+        case '*':   cout<<"Output"<<a*b;break;
+    }
+}
+
+Find the Largest of Three Numbers:
