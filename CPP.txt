@@ -76,4 +76,21 @@ int main(){
     }
 }
 
-Find the Largest of Three Numbers:
+
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int arr[10];
+    
+    for(int i=1;i<=10;i++){
+        arr[i]=i;
+    }
+    
+    for (int j=0;j<=9;j++){
+        cout<<arr[j];
+    }
+    
+}
