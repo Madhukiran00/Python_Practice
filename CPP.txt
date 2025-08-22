@@ -189,3 +189,32 @@ int main(){
          cout<<"exception caught"<<err<<endl;
      }
 }
+
+------------------
+#include<iostream>
+using namespace std;
+class Vechile{
+    public:
+    void display(){
+        cout<<"This is base class";
+    }
+};
+
+class Car: virtual public Vechile{
+    
+};
+class Truck: virtual public Vechile{
+    
+};
+
+class PickupTruck:public Car,public Truck{
+    
+};
+
+int main(){
+    PickupTruck pt;
+    pt.display();
+    
+}
+
+-------------------
