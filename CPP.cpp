@@ -123,16 +123,57 @@
 // }
 
 
-void myFunction(int myNumbers[5]) {
-  for (int i = 0; i < 5; i++) {
-    cout<< myNumbers[i] << "\n";
-  }
+// void myFunction(int myNumbers[5]) 
+//   for (int i = 0; i < 5; i++) {
+//     cout<< myNumbers[i] << "\n";
+//   }
+// }
+
+// int main() {
+//   int myNumbers[5] = {10, 20, 30, 40, 50};
+//   myFunction(myNumbers);
+//   return 0;
+// }
+
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<vector<int>> threeSum(vector<int>& nums) {
+    vector<vector<int>> res;
+    sort(nums.begin(), nums.end());
+    
+    for (int i = 0; i < nums.size(); i++) {
+        if (i > 0 && nums[i] == nums[i-1]) continue; // skip duplicates
+        int left = i + 1, right = nums.size() - 1;
+        
+        while (left < right) {
+            int sum = nums[i] + nums[left] + nums[right];
+            
+            if (sum == 0) {
+                res.push_back({nums[i], nums[left], nums[right]});
+                while (left < right && nums[left] == nums[left+1]) left++;  // skip duplicates
+                while (left < right && nums[right] == nums[right-1]) right--; // skip duplicates
+                left++;
+                right--;
+            } 
+            else if (sum < 0) left++;
+            else right--;
+        }
+    }
+    return res;
 }
 
 int main() {
-  int myNumbers[5] = {10, 20, 30, 40, 50};
-  myFunction(myNumbers);
-  return 0;
+    vector<int> nums = {-1, 0, 1, 2, -1, -4};
+    vector<vector<int>> result = threeSum(nums);
+
+    for (auto triplet : result) {
+        cout << "[";
+        for (int x : triplet) cout << x << " ";
+        cout << "] ";
+    }
 }
 
 
