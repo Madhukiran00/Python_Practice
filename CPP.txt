@@ -119,3 +119,73 @@ int main() {
 }
 
 
+
+
+
+
+_-----------------------------------
+
+1
+#include<iostream>
+using namespace std;
+
+class Student{
+    static int count;
+    
+    public:
+    Student(){
+        count++;
+    }
+    
+    static int getcount(){
+        return count;
+    }
+};
+
+int Student::count=0;
+
+int main(){
+    Student p1,p2,p3; 
+    
+    cout<<"Total"<<Student::getcount()<<endl;
+}
+---------------
+2
+
+#include<iostream>
+using namespace std;
+
+class Person{
+    int age;
+    public:
+    Person(int age){
+        this->age=age;
+    }
+    void display(){
+        cout<<"age"<<this->age<<endl;
+    }
+};
+
+int main(){
+    Person p1(25);
+    p1.display();
+    Person p2(30);
+    p2.display();
+}
+
+
+#include<iostream>
+using namespace std;
+
+int main(){
+     int a=10,b=0;
+     try{
+         if (b==0)
+            throw "division by 0 error\n";
+        int result=a/b;
+        cout<<result;
+     }
+     catch(const char* err){
+         cout<<"exception caught"<<err<<endl;
+     }
+}
