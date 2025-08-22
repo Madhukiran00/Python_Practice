@@ -218,3 +218,46 @@ int main(){
 }
 
 -------------------
+
+#include <iostream>
+using namespace std;
+
+class Transaction;
+
+class Account {
+    double balance;
+public:
+    Account(double bal) : balance(bal) {}
+    friend class Transaction;
+    void displayBalance() const {
+        cout << "Current Balance : " << balance << endl;
+    }
+};
+
+class Transaction {
+public:
+    bool withdraw(Account& acc, double amount) {   // pass by reference
+        if (amount <= 0) {
+            cout << "Invalid amount" << endl;
+            return false;
+        }
+        if (amount > acc.balance) {
+            cout << "Insufficient funds for withdrawal" << endl;
+            return false;
+        }
+        acc.balance -= amount;   // modifies the real account
+        cout << "Withdrawal of " << amount << " successful" << endl;
+        return true;
+    }
+};
+
+int main() {
+    Account myAccount(500);
+    Transaction myTransaction;
+
+    myAccount.displayBalance();          // 500
+    myTransaction.withdraw(myAccount,150); // success
+    myAccount.displayBalance();          // 350
+
+    return 0;
+}
