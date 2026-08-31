@@ -1,36 +1,44 @@
 # def prac(**a):
 #     print("Hello",a)
 # prac(a=1,b=2,c=3)
+
 # def outer():
 #     print("outer function")
 #     def inner():
 #         print("inner function")
 #     inner()
-
-
 # outer()
+
 # import functions
 # print(functions.sum(3,5))
 # s=open("example.txt",mode="r")
 # print(s.read())
 # s.close()
+
 # file=open("example.txt",mode="r+")
 # print(file.read())
 # file.write("my name is madhu")
 # file.close()
+
 # file=open("example.txt",mode="a")
 # file.write("Somethonding   ")# the previous data what exits in the file will be reased to 
 # #to overcome this problem we use append instead of write mode if u want the previoe data
 # file.close()
+
 # file=open("example.txt",mode="r+")
 # print(file.read())
 # file.write("My name is madhu")
 # file.close()
+
+
 # file=open("example.txt",mode="w+")
 # file.write("my_name_is_madhu")
-# file.seek(2)
+# file.seek(4)
+# file.tell()
 # print(file.read())
 # file.close()
+
+
 # a=7
 # try:
 #     print(a)
@@ -1778,17 +1786,17 @@ print(calendar.month(2003,6))'''
 
 
 
-def generate_substrings(s):
-    substrings = []
-    for start in range(len(s)):
-        for end in range(start + 1, len(s) + 1):
-            substrings.append(s[start:end])
-    return substrings
+# def generate_substrings(s):
+#     substrings = []
+#     for start in range(len(s)):
+#         for end in range(start + 1, len(s) + 1):
+#             substrings.append(s[start:end])
+#     return substrings
 
-# Example usage
-string = "ABC"
-result = generate_substrings(string)
-print(result)
+# # Example usage
+# string = "ABC"
+# result = generate_substrings(string)
+# print(result)
 
 
 
